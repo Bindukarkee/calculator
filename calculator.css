@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#calculator {
+    margin: auto;
+    width: 200px;
+}
+
+#calculator tr td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#calculator tr td:hover {
+    background: #ddd;
+    cursor: pointer;
+}
+
+#calculator #display {
+    width: calc(100% - 20px);
+    padding: 10px 4px;
+    font-size: 16px;
+}
