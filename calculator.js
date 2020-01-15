@@ -50,13 +50,10 @@ calculator.addEventListener("click", (e) => {
                 x = 0;
                 break;
             case 'invert':
-                x = -(x);
-                display.value = x;
+                display.value = -(display.value);
                 break;
             case 'percent':
-                action = value;
-                display.value = '';
-                x = 0;
+                display.value = parseFloat(display.value / 100);
                 break;
             case 'div':
                 action = value;
